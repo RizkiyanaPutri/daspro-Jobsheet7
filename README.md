@@ -27,3 +27,6 @@ Contoh: tertinggi = 80, terendah = 75, lalu user input 85, karena 80 < 85 maka t
 Jawab:
 a. nilai < 0 || nilai > 100 digunakan untuk memvalidasi input nilai agar hanya menerima angka antara 0 sampai 100
 b. continue adalah perintah dalam perulangan untuk melewati input atau proses yang tidak valid dan lanjut ke iterasi berikutnya tanpa menghentikan seluruh program 
+2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya dituliskan di awal perulangan WHILE?
+Jawab:
+Karena variabel i digunakan untuk menentukan urutan input mahasiswa (ke-1, ke-2, dst). Posisi i++ di akhir menjamin bahwa setiap mahasiswa akan diproses sesuai urutan dan tidak terlewat. Jika i++ diletakkan di awal perulangan jumlah data yang diinput berkurang satu
