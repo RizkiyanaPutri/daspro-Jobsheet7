@@ -45,3 +45,7 @@ if (namaPelanggan.equalsIgnoreCase("batal")) {
                 break;
             } 
 Program akan berhenti (keluar dari perulangan do-while) ketika pengguna mengetik “batal”, karena ada perintah break yang memaksa keluar dari loop.
+3. Apa fungsi dari penggunaan nilai true pada kondisi DO-WHILE?
+Jawab: 
+Fungsi true adalah agar perulangan berjalan tanpa batas (infinite loop),
+sampai kondisi berhenti (break) dipicu oleh pengguna. Jadi program akan terus mengulang selamanya sampai ada perintah break (user menginput kata batal).
