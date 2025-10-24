@@ -21,3 +21,9 @@ if (nilai < terendah) {
     terendah = nilai;
 } Jika nilai yang baru diinput lebih kecil dari nilai terendah sebelumnya maka program mengubah nilai terendah menjadi nilai tersebut.
 Contoh: tertinggi = 80, terendah = 75, lalu user input 85, karena 80 < 85 maka tertinggi = 85, jika nilai berikutnya 70, maka 70 > 85(false), sehingga tertinggi tidak berubah dan turun ke pemilihan selanjutnya yaitu 70 < 75 (true) maka terendah berubah menjadi 70
+
+#Pertanyaan percobaan 2#
+1. Pada potongan kode berikut, tentukan maksud dan kegunaan dari sintaks berikut:
+Jawab:
+a. nilai < 0 || nilai > 100 digunakan untuk memvalidasi input nilai agar hanya menerima angka antara 0 sampai 100
+b. continue adalah perintah dalam perulangan untuk melewati input atau proses yang tidak valid dan lanjut ke iterasi berikutnya tanpa menghentikan seluruh program 
