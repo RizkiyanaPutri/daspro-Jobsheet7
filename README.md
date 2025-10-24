@@ -30,3 +30,6 @@ b. continue adalah perintah dalam perulangan untuk melewati input atau proses ya
 2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya dituliskan di awal perulangan WHILE?
 Jawab:
 Karena variabel i digunakan untuk menentukan urutan input mahasiswa (ke-1, ke-2, dst). Posisi i++ di akhir menjamin bahwa setiap mahasiswa akan diproses sesuai urutan dan tidak terlewat. Jika i++ diletakkan di awal perulangan jumlah data yang diinput berkurang satu
+3. Apabila jumlah mahasiswa yang dimasukkan adalah 19, berapa kali perulangan WHILE akan berjalan?
+Jawab: 
+Jika jumlah mahasiswa yang dimasukkan adalah 19, maka perulangan WHILE akan berjalan sebanyak 19 kali.
