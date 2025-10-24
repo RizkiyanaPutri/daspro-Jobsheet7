@@ -37,3 +37,11 @@ Jika jumlah mahasiswa yang dimasukkan adalah 19, maka perulangan WHILE akan berj
 Jawab:
 Perulangan dilakukan 1 kali, karena pada perulangan do-while blok kode di dalam do akan dijalankan terlebih dahulu sebelum kondisi while dicek.
 Jadi meskipun nama pelanggan pertama adalah "batal", program tetap menjalankan isi do sekali — baru setelah itu break menghentikan perulangan.
+2. Sebutkan kondisi berhenti yang digunakan pada perulangan DO-WHILE tersebut!
+Jawab:
+Dari kondisi dibawah ini  
+if (namaPelanggan.equalsIgnoreCase("batal")) {
+                System.out.println("Transaksi dibatalkan.");
+                break;
+            } 
+Program akan berhenti (keluar dari perulangan do-while) ketika pengguna mengetik “batal”, karena ada perintah break yang memaksa keluar dari loop.
