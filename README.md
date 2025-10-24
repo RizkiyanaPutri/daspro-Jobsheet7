@@ -11,3 +11,13 @@ Jawab:
 >tertinggi diinisialisasikan dengan angka 0 agar bisa digantikan oleh nilai berapapun yang lebih tinggi dari 0
 >terendah dinisialisasikan dengan 100 agar bisa digantikan oleh nilai berapapun yang lebih rendah dari 100
 !!Jika dibalik maka tertinggi tidak akan pernah berubah karena tidak ada nilai mahasiswa yang lebih besar dari 100 dan terendah tidak akan berubah karena tidak ada nilai mahasiswa yang lebih kecil dari 0
+
+3. Jelaskan fungsi dan alur kerja dari potongan kode berikut!
+Jawab:
+if(nilai > tertinggi){
+    tertinggi = nilai;
+} Jika nilai yang baru diinput lebih besar dari nilai tertinggi sebelumnya maka program mengubah nilai tertinggi menjadi nilai tersebut.
+if (nilai < terendah) {
+    terendah = nilai;
+} Jika nilai yang baru diinput lebih kecil dari nilai terendah sebelumnya maka program mengubah nilai terendah menjadi nilai tersebut.
+Contoh: tertinggi = 80, terendah = 75, lalu user input 85, karena 80 < 85 maka tertinggi = 85, jika nilai berikutnya 70, maka 70 > 85(false), sehingga tertinggi tidak berubah dan turun ke pemilihan selanjutnya yaitu 70 < 75 (true) maka terendah berubah menjadi 70
