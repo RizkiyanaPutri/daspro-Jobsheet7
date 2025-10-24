@@ -49,3 +49,6 @@ Program akan berhenti (keluar dari perulangan do-while) ketika pengguna mengetik
 Jawab: 
 Fungsi true adalah agar perulangan berjalan tanpa batas (infinite loop),
 sampai kondisi berhenti (break) dipicu oleh pengguna. Jadi program akan terus mengulang selamanya sampai ada perintah break (user menginput kata batal).
+4. Mengapa perulangan DO-WHILE tersebut tetap berjalan meskipun tidak ada komponen inisialisasi dan update?
+Jawab:
+Perulangan do–while tetap berjalan karena kondisinya selalu benar (true), jadi program akan terus mengulang bagian di dalam do { ... } selama belum ada perintah berhenti (break). Walaupun tidak ada inisialisasi (seperti int i = 0;) atau update (seperti i++), program tetap bisa mengulang karena kita yang mengatur sendiri kapan harus berhenti, yaitu saat pengguna menginput "batal".
